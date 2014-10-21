@@ -23,7 +23,25 @@ drawpad = Canvas(root, width=800,height=600, background='white')
 drawpad.grid(row=0, column=1)
 
 # Insert your code here to draw the house!
+
+#70 point outline of house and roof
 rectangle1 = drawpad.create_rectangle(200,200,400,400)
 line1 = drawpad.create_line(200,200,300,100)
 line2 = drawpad.create_line(300,100,400,200)
+#80 point windows and door
+window1 = drawpad.create_rectangle(225,300,275,250)
+window2 = drawpad.create_rectangle(325,300,375,250)
+door = drawpad.create_rectangle(275,400,325,325)
+#90 point doorknob and chimney
+doorknob = drawpad.create_oval(285,360,295,370)
+line3 = drawpad.create_line(225,175,225,50)
+line4 = drawpad.create_line(250,150,250,50)
+line5 = drawpad.create_line(225,50,250,50)
+
+
+
+
+
+
 root.mainloop()
+
